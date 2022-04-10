@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Orbitron&family=Oswald&family=Roboto:wght@400;500&display=swap');
+
+:root {
+    --Roboto :'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--Roboto);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-1 {
+   width: 100%;
+   justify-content: space-between !important;
+}
+
+.nav-1 a {
+    font-size: 18px;
+line-height: 22px;
+transition: 0.5s;
+color: #828282;
+margin-top: 31px;
+margin-bottom: 30px;
+}
+
+.nav-1 a:hover {
+    font-size: 18px;
+line-height: 22px;
+color: #070707;
+}
+
+.line {
+    border: 1px solid #828282;
+transform: matrix(1, 0, 0, 1, 0, 0);
+max-width: 83%;
+height: 50%;
+margin: auto;
+
+}
+
+
+
+.nav-words {
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+.nav-words h1 {
+    font-size: 47.3392px;
+    line-height: 59px;
+    max-width: 123px;
+    color: #070707;
+}
+
+.nav-words p {
+    max-width: 155px;
+}
+
+.nav-words h6 {
+    transform: rotate(269deg);
+}
+
+.languange-bold {
+    font-weight: bold;
+}
+
+.nav-words h6 {
+    margin-bottom: 0px;
+}
+
+.carousel-img-width img {
+    width: 99% !important;
+}
+
+.about-me {
+    text-align: center;
+}
+
+
+.about-me h5 {
+    font-size: 34px;
+line-height: 42px;
+text-align: center;
+padding-top: 124px;
+color: #070707;
+margin-bottom: 17px;
+}
+
+.about-me {
+    background: #F6F6F6;
+    margin-top: 104px;
+}
+
+.about-p p{
+    max-width: 485px;
+    margin: auto;
+    padding: 25px;
+
+}
+
+.about-p {
+   padding-bottom: 100px;
+}
+
+/* skils */
+
+.skills-app {
+    margin-bottom: 122px;
+}
+.skils-words {
+    text-align: center;
+}
+
+.skils-words p{
+    margin-top: 50px;
+    font-size: 18px;
+line-height: 22px;
+text-align: center;
+margin-bottom: 80px;
+color: #070707;
+
+}
+
+.skils-words h5 {
+    margin-top: 90px;
+    font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+}
+
+.skillsimg-words p {
+  padding-top: 24px;
+    max-width: 70px;
+    text-align: center;
+    font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #828282;
+margin: auto;
+padding-bottom: 40px;
+
+}
+
+.skillsimg-words img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    transition: 0.5s;
+    filter: grayscale(50%);
+}
+.skillsimg-words img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+   filter: none;
+}
+
+.skillsimg-words ion-icon{
+    font-size: 25px;
+    
+}
+
+
+.figma img{
+    margin: auto;
+}
+
+/* ending of skils */
+
+/* woman-img */
+
+.woman-img  {
+display: flex;
+justify-content: center;
+margin-top: 110px;
+
+}
+
+.bg-of-woman {
+    background: #F6F6F6;
+}
+.port-h6 {
+    text-align: center;
+    font-size: 34px;
+line-height: 42px;
+text-align: center;
+padding-top: 122px;
+color: #070707;
+
+
+}
+
+.woman-img img {
+    max-width: 100%;
+    transition: 0.5s;
+}
+
+.woman-img img:hover {
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+.bg-of-woman a {
+    text-align: center;
+    font-size: 18px;
+line-height: 22px;
+text-align: center;
+text-decoration-line: underline;
+color: #070707;
+display: flex;
+justify-content: center;
+margin-top: 45px;
+}
+
+.last-a {
+    padding-bottom: 96px;
+}
+/* ending of woman */
+
+/* reebok start */
+
+/* starting of footer */
+
+.footer-words {
+    text-align: center;
+    margin-top: 114px;
+}
+
+.footer-words h5 {
+    font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+}
+
+.footer-words p {
+    font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+max-width: 275px;
+margin: auto;
+padding: 20px;
+padding-bottom: 29px;
+}
+
+.footer-words a {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    background: #070707;
+    color: #FFFFFF;
+    padding: 13px 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+   
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-icons ion-icon {
+    margin: 1.5rem;
+    font-size: 40px;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+
+.footer p {
+    text-align: center;
+    max-width: 243px;
+    font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #828282;
+margin: auto;
+padding-top: 30px;
+
+
+}
+
+/* finishing of footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media of site */
+
+/* navbar-media */
+
+
+@media(max-width:992px) {
+    .line {
+        display: none;
+    }
+
+    .nav-1 a {
+        margin-top: 15px;
+margin-bottom: 15px;
+    }
+
+    .tog-1 {
+        border: none;
+    }
+
+    
+}
+
+@media(max-width:315px) {
+    .nav-words h6 {
+        display: none;
+    }
+
+    .nav-words h1 , .about-me h5 , .skills h5 , .footer h5 {
+        font-size: 25px;
+    }
+
+    .nav-words p , .about-me p , .skills p , .footer p {
+        font-size: 15px;
+    }
+    
+    .footer-icons ion-icon {
+        margin: 0.5rem;
+        padding-top: 20px;
+    }
+
+}
+
+@media(max-width:306px) {
+    .skillsimg-words {
+        margin: auto;
+    }
+
+     .footer-icons ion-icon {
+        margin: 0.5rem;
+        padding-bottom: 20px;
+    }
+
+    .skillsimg-words img {
+        margin-top: 2rem;
+    }
+}
+
+/* ending of navbar */
+
+/* ending of media */
